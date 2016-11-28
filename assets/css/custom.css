@@ -1,0 +1,114 @@
+* {
+	font-family: trajan, serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+@font-face {
+    font-family: trajan;
+    src: url(../fonts/Trajan_Pro_Regular.woff);
+}
+p::first-letter {
+	font-size: 200%; /* Make first letter of each paragraph larger */
+	font-family: trajan, serif;
+}
+.main-article p, .side-article p{
+	line-height: 200%; /* Double space */
+	font-family: 'Roboto', sans-serif;
+}
+.affix + .center-area {
+	padding-top: 100px;
+}
+.center-area img, 
+#logo-small, 
+#logo-big, 
+.local-nav{
+	display: none; /* Hide these elements for the mobile site */
+}
+/* This holds the page picture, the main-article, local nav, and the side-article */
+.center-area{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.side-article, .main-article{
+	display: block;
+	width: 100%;
+}
+.side-article {
+	background-color: #EEEEEE; /* The light-gray color */
+}
+h1 {
+	padding-bottom: 40px; /* To match h2 while keeping left edge inline */
+}
+.side-article p, h2{
+	padding: 20px;
+}
+.footer, .footer a:visited {
+	display: inline-block;
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	margin-top: 10px;
+}
+.nav-div>a:hover, .footer a, .footer a:visited {
+	color: #536987; /* Blue color */
+}
+.footer:hover, .main-article li a:hover {
+	text-decoration: underline;
+}
+#logo-small, #logo-big{
+		margin-left: 12%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+@media (min-width: 500px) {
+	#logo-small{
+		display: block;
+	}
+	.center-area{
+		padding-top: 30px; /* To display the img and articles below nav */
+	}
+}
+@media (min-width: 768px) {
+	.center-area {
+		width: 75%;
+	}
+	.center-area img{
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#logo-big{
+		display: block;
+	}
+	#logo-small {
+		display: none;
+	}
+	.hamburger {
+		display: none;
+	}
+}
+@media (min-width: 1000px) {
+	.main-article {
+		float: left;
+		width: 65%;
+		height: 100%;
+	}
+	.side-article {
+		float: right;
+		width: 30%;
+	}
+	.local-nav {
+		display: block;
+	}
+	.local-nav-item {
+		width: 96%;
+		margin:2%;
+		background-color: white;
+		height: 140px;
+	}
+	.local-nav-item img {
+		height: 100%;
+	}
+}

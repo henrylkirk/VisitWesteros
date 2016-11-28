@@ -1,0 +1,73 @@
+.detailBox {
+    border:1px solid #bbb;
+    margin-top: 40px;
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+.btn-default {
+    text-shadow: none;
+    height: 70px;
+    position: relative;
+    bottom: 19px; 
+    background-color: #536987;
+    color: white;
+    font-size: 120%;
+}
+.btn-default:hover, .btn:hover {
+    color: white;
+    background-color: #798ca5;
+}
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group, .actionBox .form-group {
+    width:80%;
+}
+form.form-inline {
+    width: 100%;
+}
+.actionBox .form-group * {
+    width: 100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.form-group {
+    margin-bottom: 0px;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:350px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commentText p {
+    margin: 0;
+}
+.commentText p::first-letter{
+    font-size: 100%;
+}
+.name {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
