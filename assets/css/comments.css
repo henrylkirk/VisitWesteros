@@ -1,24 +1,36 @@
 .detailBox {
-    border:1px solid #bbb;
+    border: 1px solid #bbb;
     margin-top: 40px;
+    margin-bottom: 40px;
+}
+.comment-input {
+    float:left;
+    height: 50%;
+    width: 80%;
+}
+.comment-btn {
+    width: 19%;
+    display:inline-block;
 }
 .titleBox {
     background-color:#fdfdfd;
-    padding:10px;
+    padding: 10px;
 }
 .titleBox label{
-  color:#444;
-  margin:0;
+  color: #444;
+  margin: 0;
   display:inline-block;
 }
 .btn-default {
     text-shadow: none;
     height: 70px;
-    position: relative;
     bottom: 19px; 
     background-color: #536987;
     color: white;
     font-size: 120%;
+}
+.glyphicon {
+    position: static;
 }
 .btn-default:hover, .btn:hover {
     color: white;
@@ -31,10 +43,10 @@
 .commentBox .form-group, .actionBox .form-group {
     width:80%;
 }
-form.form-inline {
-    width: 100%;
+.form-inline {
+    padding-top: 10px;
 }
-.actionBox .form-group * {
+form.form-inline, .btn, .actionBox .form-group * {
     width: 100%;
 }
 .taskDescription {
@@ -70,4 +82,9 @@ form.form-inline {
 .actionBox {
     border-top:1px dotted #bbb;
     padding:10px;
+}
+@media (min-width: 768px) {
+    .form-inline .form-control {
+        width: 100%;
+    }
 }
