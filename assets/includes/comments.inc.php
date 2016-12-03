@@ -4,10 +4,11 @@
     <div class="titleBox">
       <label>Leave a Comment</label>
 
-      <form class="form-inline" role="form">
+      <form class="form-inline" 
+      		onsubmit="return addMessage(document.querySelector('input[name=\'name-field\']').value, document.querySelector('input[name=\'comment-field\']').value);">
             <div class="form-group comment-input">
                 <input class="form-control"
-                       name="name"
+                       name="name-field"
                        id="name"
                        type="text" 
                        placeholder="Your name"
@@ -15,38 +16,22 @@
             </div>
             <div class="form-group comment-input">
                 <input class="form-control"
-                       name="comment"
+                       name="comment-field"
                        id="comment"
                        type="text" 
                        placeholder="Your comment" 
-                       maxlength="30" />
+                       maxlength="140" />
             </div>
             <div class="form-group comment-btn">
-                <button class="btn btn-default"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+                <button type="submit"
+                		value="submit" 
+                		class="btn btn-default"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></button>
             </div>
         </form>
 
     </div>
     <div class="actionBox">
-        <ul class="commentList">
-            <li>
-                <div class="commentText">
-                    <span class="name">Henry Kirk</span>
-                    <p>Hello this is a test comment.</p> 
-                </div>
-            </li>
-            <li>
-                <div class="commentText">
-                     <span class="name">Spencer Suhr</span>
-                    <p>Hello this is a test comment and this comment is particularly very long and it goes on and on and on.</p>
-                </div>
-            </li>
-            <li>
-                <div class="commentText">
-                    <span class="name">John Smith</span>
-                    <p>Hello this is a test comment.</p>
-                </div>
-            </li>
+        <ul id="commentList">
         </ul>
     </div>
 </div>

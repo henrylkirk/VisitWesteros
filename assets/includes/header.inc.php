@@ -22,7 +22,7 @@
 	<title>Visit Westeros | <?= $page_title ?> </title>
 
 </head>
-<body onresize="reloadPage()">
+<body onresize="reloadPage();">
 	<?php include "assets/includes/sidebar.inc.php"; ?>
 
 	<!-- Large logo -->

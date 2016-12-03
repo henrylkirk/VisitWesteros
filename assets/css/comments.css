@@ -55,17 +55,17 @@ form.form-inline, .btn, .actionBox .form-group * {
 .form-group {
     margin-bottom: 0px;
 }
-.commentList {
+#commentList {
     padding:0;
     list-style:none;
     max-height:350px;
     overflow:auto;
 }
-.commentList li {
+#commentList li {
     margin:0;
     margin-top:10px;
 }
-.commentList li > div {
+#commentList li > div {
     display:table-cell;
 }
 .commentText p {
