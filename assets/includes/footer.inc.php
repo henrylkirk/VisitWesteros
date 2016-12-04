@@ -20,5 +20,14 @@
 <script src="assets/scripts/update_nav_offset.js"></script>
 <!-- Handle Comments -->
 <script src="assets/scripts/comments.js"></script>
+<!-- Unslider -->
+<script src="assets/scripts/unslider.js"></script>
+<script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider({
+				autoplay: true
+			});
+		});
+</script>
 </body>
 </html>

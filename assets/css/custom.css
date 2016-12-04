@@ -1,5 +1,4 @@
 * {
-	font-family: trajan, serif;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -8,13 +7,16 @@
     font-family: trajan;
     src: url(../fonts/Trajan_Pro_Regular.woff);
 }
-p::first-letter {
+h1, h2, nav, label {
+	font-family: trajan, serif;
+}
+.large-first-letter::first-letter {
 	font-size: 200%; /* Make first letter of each paragraph larger */
 	font-family: trajan, serif;
 }
 .main-article p, .side-article p{
-	line-height: 200%; /* Double space */
 	font-family: 'Roboto', sans-serif;
+	line-height: 200%; /* Double space */
 }
 .affix + .center-area {
 	padding-top: 100px;
