@@ -20,8 +20,7 @@
 		<ul>
 			<li><h3>Original JavaScript:</h3></li>
 			<li>assets/scripts/update_nav_offset.js</li>
-			<li>This script sets the nav 'offset' for desktop/mobile. Also reloads the page if the breakpoint is passed to fix 'affix' issue in the navbar.</li>
-			<li>Without this script, the navbar is not fixed at the top on mobile sized screens when window is adjusted from larger size.</li>
+			<li>This script sets the nav 'offset' for desktop/mobile. Also reloads the page if the breakpoint is passed to fix 'affix' issue in the navbar. Without this script, the navbar is not fixed at the top on mobile sized screens when window is adjusted from larger size.</li>
 		</ul>
 		<br />
 		<ul>

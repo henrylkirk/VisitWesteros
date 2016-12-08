@@ -5,34 +5,34 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="#">The Wall</a>
+                    <a href="wall.php">The Wall</a>
                 </li>
                 <li>
-                    <a href="#">The Citadel</a>
+                    <a href="citadel.php">The Citadel</a>
                 </li>
                 <li>
-                    <a href="#">Winterfell</a>
+                    <a href="winterfell.php">Winterfell</a>
                 </li>
                 <li>
-                    <a href="#">The Eyrie</a>
+                    <a href="eyrie.php">The Eyrie</a>
                 </li>
                 <li>
-                    <a href="#">Riverrun</a>
+                    <a href="riverrun.php">Riverrun</a>
                 </li>
                 <li>
-                    <a href="#">Iron Islands</a>
+                    <a href="ironislands.php">Iron Islands</a>
                 </li>
                 <li>
-                    <a href="#">Dragonstone</a>
+                    <a href="dragonstone.php">Dragonstone</a>
                 </li>
                 <li>
-                    <a href="#">King's Landing</a>
+                    <a href="kingslanding.php">King's Landing</a>
                 </li>
                 <li>
-                    <a href="#">Sunspear</a>
+                    <a href="sunspear.php">Sunspear</a>
                 </li>
             </ul>
         </nav> <!-- /#sidebar-wrapper -->
