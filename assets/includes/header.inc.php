@@ -28,7 +28,7 @@
 
 	<!-- Large logo -->
 	<div id="logo-big">
-		<a href="../index.html">
+		<a href="../final/index.php">
 			<img src="assets/media/logo.png" style="height: 40px;" alt="logo">
 		</a>
 	</div>

@@ -11,12 +11,12 @@
     <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/scripts/jquery-3.1.1.min.js"></script>
 <!-- Bootstrap -->
 <script src="assets/scripts/bootstrap.min.js"></script>
 <!-- Sidebar -->
 <script src="assets/scripts/sidebar.js"></script>
-<!-- Custom JS -->
+<!-- Custom JS: Reload page to display affix correctly -->
 <script src="assets/scripts/update_nav_offset.js"></script>
 <!-- Handle Comments -->
 <script src="assets/scripts/comments.js"></script>
@@ -25,9 +25,19 @@
 <script>
 		jQuery(document).ready(function($) {
 			$('.my-slider').unslider({
-				autoplay: true
+				autoplay: true,
+				infinite: true
+			});	
+			
+			$( "#info" ).click(function() { // Toggle image caption
+				if($("figcaption").css("visibility") == "hidden"){
+					$("figcaption").css("visibility", "visible");
+				} else {
+					$("figcaption").css("visibility", "hidden");
+				}
 			});
 		});
 </script>
+
 </body>
 </html>
