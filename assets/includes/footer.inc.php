@@ -2,7 +2,7 @@
 	</div>
 </div>
 <div class="footer">
-	<a href="about.html">About this site</a>
+	<a href="about.php">About this site</a>
 </div>
 
         </div> <!-- /#page-content-wrapper -->
