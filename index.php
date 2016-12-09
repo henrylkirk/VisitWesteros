@@ -13,7 +13,7 @@
 			}
 		?>
 		</ul>
-		<div id='info'><span class='glyphicon glyphicon-info-sign' aria-hidden='true'></span></div>
+		<div id='info' onclick="toggleCaption();"><span class='glyphicon glyphicon-info-sign' aria-hidden='true'></span></div>
 	</div>
 		
 		<p class="large-first-letter">Westeros is one of the four known continents in the world. It is comprised of seven kingdoms, which are all ruled by the protector of the realm in King's Landing. It is home to a huge number of families, known as "houses" who each have their own rich histories and culture. Westeros has been inhabited by humans for thousands of years, and so is full of ancient cities, castles, and other historic sites. Valar Morghulis!</p>

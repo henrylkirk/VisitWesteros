@@ -32,14 +32,15 @@
 		<br />
 		<ul>
 			<li><h3>DHTML:</h3></li>
-			<li></li>
+			<li>assets/scripts/caption_toggle.js</li>
+			<li>Located at the bottom left-hand corner of the large images on every page (Click on the 'i' icon).</li>
+			<li>I created a function to change the style of the figcaptions to toggle between hiding and displaying them.</li>
 		</ul>
 		<br />
 		<ul>
 			<li><h3>Extras:</h3></li>
-			<li>Off-side sidebar on mobile (Not original, but styles modifications were made).</li>
+			<li>Off-side sidebar on mobile (Not original, but style modifications were made).</li>
 			<li>Favicon</li>
-			<li>Toggle-able image caption using original jQuery script.</li>
 			<li>AJAX Comments</li>
 			<li>Original php script to fill local navigation. (located in assets/includes/local-nav.inc.php)</li>
 			<li>'Affix' navbar on 768px+ screens</li>
