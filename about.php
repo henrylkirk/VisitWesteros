@@ -17,6 +17,13 @@
 			<li><h3>Responsive Design:</h3></li>
 			<li>(Original breakpoints are in files custom.css and nav.css)</li>
 		</ul>
+		<br />
+		<ul>
+			<li><h3>Comments Form:</h3></li>
+			<li>assets/includes/comments.inc.php, assets/scripts/addComment.php, assets/scripts/comments.js</li>
+			<li>Javascript validation happens in comments.js in the 'addMessage' function.</li>
+		</ul>
+		<br />
 		<ul>
 			<li><h3>Original JavaScript:</h3></li>
 			<li>assets/scripts/update_nav_offset.js</li>

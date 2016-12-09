@@ -96,7 +96,7 @@
     	text-align:center;
 	}
 	.container {
-		width: default;
+		width: auto;
 	}
 	.caret-up {
 		width: 0; 

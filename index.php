@@ -8,7 +8,7 @@
 		<ul>
 		<?php
 			foreach ($images as $key => $value) { // $images defined in page_start.inc.php
-    			echo "<li><figure><img src='" . URL_IMG . $key . ".jpg' alt='" . $key . "'><figcaption id='image-src'><a href='"
+    			echo "<li><figure><img src='" . URL_IMG . $key . ".jpg' alt='" . $key . "'><figcaption><a href='"
     			. $value . "'>" . $value . "</a></figcaption></figure></li>";
 			}
 		?>

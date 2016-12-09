@@ -51,7 +51,7 @@
 }
 .unslider-arrow {
   position: relative;
-  bottom: 18vw;
+  bottom: 21vw;
   cursor: pointer;
   color: white;
   font-size: 150%;
@@ -62,9 +62,11 @@
 .unslider-arrow.next {
   float:right;
   left: -20px;
+  z-index: 1;
 }
 .unslider-arrow.prev {
   left: 20px;
+  z-index: 1;
 }
 
 .unslider-nav ol {

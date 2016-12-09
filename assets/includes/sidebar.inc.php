@@ -2,7 +2,7 @@
         <div class="overlay"></div>
     
         <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper">
             <ul class="nav sidebar-nav">
                 <li>
                     <a href="index.php">Home</a>

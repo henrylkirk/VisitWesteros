@@ -38,9 +38,9 @@
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li <?= $active_page == "home" ? "class='active'" : "" ?>><a href="index.php">Home</a></li>
+					<li <?= $active_page == "home" ? "'active'" : "" ?>><a href="index.php">Home</a></li>
 
-					<li class="dropdown" <?= $active_page == "attractions" ? "class='active'" : "" ?>>
+					<li class="dropdown <?= $active_page == "attractions" ? "active" : "" ?>">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Attractions <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="wall.php">The Wall</a></li>
@@ -48,7 +48,7 @@
 						</ul>
 					</li>
 
-					<li class="dropdown" <?= $active_page == "castles" ? "class='active'" : "" ?>>
+					<li class="dropdown <?= $active_page == "castles" ? "active" : "" ?>">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Castles 
 							<b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -58,7 +58,7 @@
 							</ul>
 						</li>
 
-						<li class="dropdown" <?= $active_page == "islands" ? "class='active'" : "" ?>>
+						<li class="dropdown <?= $active_page == "islands" ? "active" : "" ?>">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Islands <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="ironislands.php">Iron Islands</a></li>
@@ -66,7 +66,7 @@
 							</ul>
 						</li>
 
-						<li class="dropdown" <?= $active_page == "cities" ? "class='active'" : "" ?>>
+						<li class="dropdown <?= $active_page == "cities" ? "active" : "" ?>">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cities <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="kingslanding.php">King's Landing</a></li>
