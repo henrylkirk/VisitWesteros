@@ -2,7 +2,7 @@
 <!-- Adapted from: https://codepen.io/magnus16/pen/buGiB?editors=1100 -->
 <div class="detailBox">
     <div class="titleBox">
-      <label>Leave a Comment</label>
+      <label>Leave a Comment<span id="required-notice" style="color:red;display:none;">&nbsp;*These fields are required</span></label>
 
       <form class="form-inline" 
       		onsubmit="return addMessage(document.querySelector('input[name=\'name-field\']').value, document.querySelector('input[name=\'comment-field\']').value);">
