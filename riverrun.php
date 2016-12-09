@@ -1,18 +1,12 @@
 <?php
 	$page_title = "Riverrun";
+	$image_name = "riverrun";
 	$active_page = "castles";
 	$local = array("winterfell", "eyrie");
 	include "assets/includes/page_start.inc.php";
 	include PATH_INC . "header.inc.php";
 ?>
-		<figure>
-			<img src='<?= URL_IMG?>riverrun.jpg'>
-			<figcaption id='image-src'><a href=<?php echo $images["riverrun"]; ?>><?php echo $images["riverrun"]; ?></a></figcaption>
-		</figure>
-		
-		<div id="info">
-			<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-		</div>
+		<?php include PATH_INC . "figure.inc.php"; ?>
 		
 		<p class="large-first-letter">Riverrun is a castle and the ancestral home of House Tully. However, after the events of the infamous Red Wedding in which Robb Stark, 5000 northern men, and Catelyn Tully were murdered, the castle went into the possession of Walder Frey.</p>
 		<br />

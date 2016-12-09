@@ -1,18 +1,12 @@
 <?php
 	$page_title = "Dragonstone";
+	$image_name = "dragonstone";
 	$active_page = "islands";
 	$local = array("ironislands");
 	include "assets/includes/page_start.inc.php";
 	include PATH_INC . "header.inc.php";
 ?>
-		<figure>
-			<img src='<?= URL_IMG?>dragonstone.jpg'>
-			<figcaption id='image-src'><a href=<?php echo $images["dragonstone"]; ?>><?php echo $images["dragonstone"]; ?></a></figcaption>
-		</figure>
-		
-		<div id="info">
-			<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-		</div>
+		<?php include PATH_INC . "figure.inc.php"; ?>
 		
 		<p class="large-first-letter">Known to many as a "godforsaken rock", Dragonstone is actually more of a hidden gem. Just off the coast of the mainland in Blackwater Bay, it is home to an ancient castle, also named Dragonstone, the seat of House Baratheon. Formed by volcanoes, this island has miles of gorgeous hiking trails with views of the ocean. The castle Dragonstone is a particularly gorgeous destination on the island. Built by the Targaryens, this castle's design is unlike any other in Westeros.</p>
 

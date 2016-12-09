@@ -1,18 +1,12 @@
 <?php
 	$page_title = "Sunspear";
+	$image_name = "sunspear";
 	$active_page = "cities";
 	$local = array("kingslanding");
 	include "assets/includes/page_start.inc.php";
 	include PATH_INC . "header.inc.php";
 ?>
-		<figure>
-			<img src='<?= URL_IMG?>sunspear.jpg'>
-			<figcaption id='image-src'><a href=<?php echo $images["sunspear"]; ?>><?php echo $images["sunspear"]; ?></a></figcaption>
-		</figure>
-		
-		<div id="info">
-			<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-		</div>
+		<?php include PATH_INC . "figure.inc.php"; ?>
 		
 		<p class="large-first-letter">Sunspear is the home of House Martell and the capital of Dorne, an enormous kingdom taking up the south of Westeros. Dorne, being so far south, is the hottest area of Westeros. It features huge mountains, rocky terrain, and the only desert on the continent. Dorne is famous for its luxurious products, especially its wine.</p>
 		<br />

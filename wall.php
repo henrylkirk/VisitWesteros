@@ -1,18 +1,12 @@
 <?php
 	$page_title = "The Wall";
+	$image_name = "wall";
 	$active_page = "attractions";
 	$local = array("citadel");
 	include "assets/includes/page_start.inc.php";
 	include PATH_INC . "header.inc.php";
 ?>
-		<figure>
-			<img src='<?= URL_IMG?>wall.jpg'>
-			<figcaption id='image-src'><a href=<?php echo $images["wall"]; ?>><?php echo $images["wall"]; ?></a></figcaption>
-		</figure>
-		
-		<div id="info">
-			<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-		</div>
+		<?php include PATH_INC . "figure.inc.php"; ?>
 		
 		<p class="large-first-letter">The Wall is a huge barrier of magic and ice that stretches across the north of the continent, separating it from the wilderness that lies beyond. The Wall, which is several hundred feet high, protects the realm from the Wildlings and White Walkers that live on the other side. The Wall, being so far north, has the most extreme cold of the Seven Kingdoms.</p>
 		<br />

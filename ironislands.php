@@ -1,18 +1,12 @@
 <?php
 	$page_title = "The Iron Islands";
+	$image_name = "ironislands";
 	$active_page = "islands";
 	$local = array("dragonstone");
 	include "assets/includes/page_start.inc.php";
 	include PATH_INC . "header.inc.php";
 ?>
-		<figure>
-			<img src='<?= URL_IMG?>ironislands.jpg'>
-			<figcaption id='image-src'><a href='#'><?php echo $images["ironislands"]; ?></a></figcaption>
-		</figure>
-		
-		<div id="info">
-			<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-		</div>
+		<?php include PATH_INC . "figure.inc.php"; ?>
 		
 		<p class="large-first-letter">The Iron Islands are a cluster of small islands off the coast of Westeros and are home to a seafaring people known as the ironborn. The islands are ruled by House Greyjoy from their castle of Pyke (pictured above). When you're there, venture to their stony shores and witness one of their ancient religious ceremonies. It may seem barbaric to drown people for the "drowned God" to some, but I can assure you most people survive the process! As the ironmen are known for their sailing prowess, I have to recommend that you go for a sailing tour of the islands. Go down to the docks and ask anyone (literally anyone) for passage aboard their ship -they all have at least one.</p>
 

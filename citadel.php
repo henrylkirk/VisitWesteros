@@ -1,18 +1,12 @@
 <?php
 	$page_title = "The Citadel";
+	$image_name = "citadel";
 	$active_page = "attractions";
 	$local = array("wall");
 	include "assets/includes/page_start.inc.php";
 	include PATH_INC . "header.inc.php";
 ?>
-		<figure>
-			<img src='<?= URL_IMG?>citadel.jpg'>
-			<figcaption id='image-src'><a href='#'><?php echo $images["citadel"]; ?></a></figcaption>
-		</figure>
-		
-		<div id="info">
-			<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-		</div>
+		<?php include PATH_INC . "figure.inc.php"; ?>
 		
 		<p class="large-first-letter">Dating back to the time of the First Men, the Citadel of Oldtown is the headquarters of the land's Maesters. As I'm sure you know, the Maesters are scholars who advise the lords and royalty of the Seven Kingdoms on everything scientific, political, medical, historical, and magical. The Citadel is where young men go to be trained to become Maesters.</p>
 
